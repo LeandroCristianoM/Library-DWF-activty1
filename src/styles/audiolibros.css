@@ -1,0 +1,43 @@
+.audio-libros-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.audio-libros-container:hover{
+    transform: scale(1.03);
+}
+
+.imagen-container{
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.descripcion-container{
+max-width: 400px;
+text-align: left;
+}
+
+.descripcion-container h2{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2{
+    color: #007bff;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
